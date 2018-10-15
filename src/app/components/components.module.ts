@@ -5,8 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { NouisliderModule } from 'ng2-nouislider';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
 import { ComponentsComponent } from './components.component';
-import { NgbdModalComponent } from './modal/modal.component';
-import { NgbdModalContent } from './modal/modal.component';
+
 import { OurStoryComponent } from './our-story/our-story.component';
 import { CuisineComponent } from './cuisine/cuisine.component';
 import { MenuComponent } from './menu/menu.component';
@@ -23,15 +22,14 @@ import { ReservationComponent } from './reservation/reservation.component';
     ],
     declarations: [
         ComponentsComponent,
-        NgbdModalComponent,
-        NgbdModalContent,
+       
         OurStoryComponent,
         CuisineComponent,
         MenuComponent,
         VisitComponent,
         ReservationComponent
     ],
-    entryComponents: [NgbdModalContent],
+    entryComponents: [],
     exports:[ ComponentsComponent ]
 })
 export class ComponentsModule { }
