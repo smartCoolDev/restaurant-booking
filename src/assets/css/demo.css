@@ -34,16 +34,6 @@
         max-width:  25px;
       }
 
-  
-  /* .image4 {
-    position: absolute;
-    top: 35%;
-    // left: 50%;
-    // margin-left: -(X/2)px;
-    // margin-top: -(Y/2)px;
-    max-width: 100% !important;
-    
-  } */
 
 .tim-row {
     margin-bottom: 20px;
@@ -129,14 +119,6 @@
     background-color: #fff;
     /*     position: relative; */
 }
-/* 
-.navigation-example {
-    background-image: url('../img/ilya-yakover.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: 0;
-} */
 
 #notifications {
     background-color: #FFFFFF;

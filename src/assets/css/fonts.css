@@ -106,15 +106,15 @@
     font-style: normal;
 }
 
+/* //custome css */
 
-.nineStars {
+.home-title {
     /* display: inline-block; */
     display: flex;
     justify-content: center;
     font: normal normal normal 1vw/1 'Alt Ren Retro';
     font-size: 5vw;
     color: aliceblue;
-    speak: none;
     text-transform: none;
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
@@ -144,6 +144,26 @@
     text-transform: none;
     
 
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+   
+  .ng-footer {
+    display: flex;
+    font: normal normal normal 15px/1 'Alt Ren Retro' !important;
+    /* font-size: 2vw; */
+    color: #7a6951 !important;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .ng-footer2 {
+    display: flex;
+    font: normal normal normal 15px/1 'Alt Ren Retro' !important;
+    /* font-size: 2vw; */
+    /* color: #7a6951 !important; */
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
