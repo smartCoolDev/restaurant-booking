@@ -1,0 +1,57 @@
+/*!
+
+ =========================================================
+ * Paper Kit 2 Angular - v1.1.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/kit-2-angular
+ * Copyright 2017 Creative Tim (https://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/timcreative/kit/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+
+@import "kit/variables";
+@import "kit/mixins";
+
+@import "kit/typography";
+
+// Core CSS
+@import "kit/misc";
+@import "kit/buttons";
+@import "kit/inputs";
+@import "kit/progress-bars";
+@import "kit/sliders";
+@import "kit/alerts";
+@import "kit/labels";
+@import "kit/tooltips-and-popovers";
+@import "kit/sections";
+@import "kit/checkbox-radio";
+@import "kit/navbars";
+@import "kit/images";
+@import "kit/cards";
+@import "kit/footers";
+
+
+// Bootstrap Switch
+@import "kit/bootstrap-switch";
+
+// Fancy Stuff
+@import "kit/dropdown";
+//
+// icons
+@import "kit/icons";
+//
+@import "kit/tabs-navs-pagination";
+@import "kit/collapse";
+@import "kit/carousel";
+@import "kit/modal";
+//
+@import "kit/responsive";
+@import "kit/plugins/datetimepicker";
+@import "kit/social-buttons";
+@import "kit/examples";
+
+

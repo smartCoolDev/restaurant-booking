@@ -1,0 +1,46 @@
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 200%
+  }
+
+  .image2 {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    margin-left: -(X/2)px;
+    margin-top: -(Y/2)px;
+    max-width: 30% !important;
+  }
+  .image3 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    margin-bottom: 600px;
+    
+  }
+
+  .stroy-title {
+    position: absolute;
+    bottom: 15px;
+   text-align: center;
+   width: 100%;
+  }
+  
+  .image4 {
+    position: absolute;
+    top: 35%;
+    // left: 50%;
+    // margin-left: -(X/2)px;
+    // margin-top: -(Y/2)px;
+    
+    padding-left: 580px;
+    max-width: 100% !important;
+    
+  }

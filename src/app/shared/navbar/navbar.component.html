@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand  " href="#">
+                <img class="responsive" src="../../../assets/img/loremipsum-logo.png"
+                    alt="Dispute Bills">
+            </a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+      
+                <li class="nav-item active" *ngIf="!isDocumentation()">
+                    <a routerLink="/" class="nav-link navbar-menuText "><i></i> ABOUT</a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a href="#" class="nav-link navbar-menuText " target="_blank"><i class=""></i> MENU</a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a href="#" class="nav-link navbar-menuText " target="_blank"><i class=""></i>BOOK A TABLE</a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a href="#" class="nav-link navbar-menuText " target="_blank"><i class=""></i>GALLERY</a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a href="#" class="nav-link navbar-menuText " target="_blank"><i class=""></i>CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

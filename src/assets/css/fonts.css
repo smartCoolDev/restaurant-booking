@@ -1,0 +1,383 @@
+@font-face {
+    font-family: 'Montez';
+    src: local('Montez'), local('Montez-Regular'),
+        url('../fonts/Montez-Regular.woff2') format('woff2'),
+        url('../fonts/Montez-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alt Ren Retro';
+    src: local('Alt Ren Retro'), local('AltRenRetro'),
+        url('../fonts/AltRenRetro.woff2') format('woff2'),
+        url('../fonts/AltRenRetro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity Bold Italic'), local('Gravity-BoldItalic'),
+        url('../fonts/Gravity-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gravity-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gravity Book';
+    src: local('Gravity Book'), local('Gravity-Book'),
+        url('../fonts/Gravity-Book.woff2') format('woff2'),
+        url('../fonts/Gravity-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gravity Book';
+    src: local('Gravity Book Italic'), local('Gravity-BookItalic'),
+        url('../fonts/Gravity-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gravity-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity Bold'), local('Gravity-Bold'),
+        url('../fonts/Gravity-Bold.woff2') format('woff2'),
+        url('../fonts/Gravity-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity Light Italic'), local('Gravity-LightItalic'),
+        url('../fonts/Gravity-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gravity-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity Italic'), local('Gravity-Italic'),
+        url('../fonts/Gravity-Italic.woff2') format('woff2'),
+        url('../fonts/Gravity-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity UltraLight Italic'), local('Gravity-UltraLightItalic'),
+        url('../fonts/Gravity-UltraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gravity-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity UltraLight'), local('Gravity-UltraLight'),
+        url('../fonts/Gravity-UltraLight.woff2') format('woff2'),
+        url('../fonts/Gravity-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity Regular'), local('Gravity-Regular'),
+        url('../fonts/Gravity-Regular.woff2') format('woff2'),
+        url('../fonts/Gravity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gravity';
+    src: local('Gravity Light'), local('Gravity-Light'),
+        url('../fonts/Gravity-Light.woff2') format('woff2'),
+        url('../fonts/Gravity-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.nineStars {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    font: normal normal normal 1vw/1 'Alt Ren Retro';
+    font-size: 5vw;
+    color: aliceblue;
+    speak: none;
+    text-transform: none;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  .ng-cuisine-text {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    font: normal normal normal 1vw/1 'Montez';
+    font-size: 5vw;
+    color: aliceblue;
+    padding-top: 30px;
+    text-transform: none;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  
+  .ng-menu-text1 {
+    font: normal normal normal 3vw/1 'Montez';
+    /* font-size: 2vw; */
+    color: #7a6951;
+    text-transform: none;
+    
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .ng-res-text1 {
+    font: normal normal normal 2vw/1 'Alt Ren Retro';
+    /* font-size: 2vw; */
+    color: black;
+    text-transform: none;
+    
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+    
+  .ng-visit-text1 {
+    font: normal normal normal 3vw/1 'Montez';
+    /* font-size: 2vw; */
+    color: #fff;
+    text-transform: none;
+    
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .ng-menu-text2 {
+    font: normal normal normal 4vw/1 'Alt Ren Retro';
+    /* font-size: 2vw; */
+    color: black;
+    text-transform: none;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .ng-menu-text3 {
+    font: normal normal normal 2vw/1 'Gravity';
+    /* font-size: 2vw; */
+    color:#7a6951;
+    text-transform: none;
+    padding-left: 40px;
+    padding-top: 40px;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .ng-menu-n {
+    font: normal normal normal 2vw/1 'Alt Ren Retro';
+    /* font-size: 2vw; */
+    color:black;
+   
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .ng-menu-p {
+    font: normal normal normal 1vw/1 'Gravity-Bold';
+    /* font-size: 2vw; */
+    color:black;
+    text-transform: none;
+    padding-left: 25px;
+     padding-top: 5px; 
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+
+  .navbar-menuText {
+    /* display: inline-block; */
+    display: flex;
+    font: normal normal normal 50px/1 'Alt Ren Retro';
+    font-size: 10vw;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .home-open {
+    /* display: inline-block; */
+    display: flex;
+    font: normal normal normal 30px/1 'Alt Ren Retro';
+   
+    color: aliceblue;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .home-reservation {
+    /* display: inline-block; */
+    display: flex;
+    font: normal normal normal 30px/1 'Alt Ren Retro';
+   
+    margin-top: 10px;
+
+    color: aliceblue;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .home-address {
+
+    display: flex;
+    font: normal normal normal 15px/1 'Gravity Book';
+
+    color: aliceblue;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .home-time {
+    /* display: inline-block; */
+    display: flex;
+    font: normal normal normal 15px/1 'Gravity Book';
+    margin-top: 10px;
+    color: aliceblue;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .home-copyrights {
+    /* display: inline-block; */
+    display: flex;
+    font: normal normal normal 15px/1 'Gravity Book';
+    
+    color: aliceblue;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  .story-title {
+    display: flex;
+    font: normal normal normal 3vw/1 'Montez';
+   
+    margin-top: 10px;
+
+    color:#7a6951;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    bottom: 15px;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 590px;
+  }
+
+  .story-subtitle {
+    display: flex;
+   
+   
+    margin-top: 10px;
+    font: normal normal normal 2vw/1 'Alt Ren Retro';
+    /* font-size: 2vw; */
+    color: black;
+    text-transform: none;
+    
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color:#7a6951;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    bottom: 15px;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 530px;
+  }
+ 
+  .story-text {
+    display: flex;
+   
+    justify-content: center;
+    margin-top: 10px;
+    font: normal normal normal 1vw/1 'Gravity';
+    /* font-size: 2vw; */
+    color: black;
+    text-transform: none;
+    
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color:#7a6951;
+    justify-content: center;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    bottom: 15px;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 400px;
+  }
+ 
+
+  .borderless td, .borderless th {
+    border: none;
+}
+td .p{
+    margin-top: 0;
+    position: absolute;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    color:#7a6951;
+    color: black;
+    font: normal normal normal 2vw/1 'Alt Ren Retro';
+  }
