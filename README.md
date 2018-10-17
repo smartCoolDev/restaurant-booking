@@ -1,4 +1,4 @@
-# Ninestars Assignment
+# Ninestars Assignment - Angular 6
 ![alt text](https://github.com/mvndr/restaurant-booking/blob/master/src/assets/img/Design.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
